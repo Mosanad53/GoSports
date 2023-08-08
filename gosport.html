@@ -1,0 +1,155 @@
+<head>
+	<html dir="rtl">
+<!-- Responsive viewport -->
+<meta content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' name='viewport'/>
+<title>خانة البحث....</title>
+<link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#myInput').on('input', function() {
+var value = $(this).val().toLowerCase();
+$('.gallery >.poster').filter(function() {
+$(this).toggle($(this).find('a').attr('title').toLowerCase().indexOf(value) > -1)});});});
+</script>
+<style type="text/css">
+*{-webkit-tap-highlight-color:transparent;user-select:none;margin:0;padding:0;box-sizing:border-box;outline:none;user-select:none;}
+html,body{background-color:#111;padding:0;margin:0;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:130px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:120px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:130px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:120px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:160px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:150px;width:110px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+@media only screen and (min-width: 992px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:190px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:180px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+@media only screen and (min-width: 1200px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:220px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:210px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+</style>
+</head>
+<body>
+<body ondragstart="return false" ondrop="return false" onselectstart="return false" oncontextmenu="return false">
+<div id="xaviec">
+<input id="myInput" type="search" placeholder="انقر للبحث عن قناة... " size="12" class="xssearch">
+</div>
+<div class="xs">
+<div class="gallery">
+<div class="poster"><div id="w-movie">
+<div id="w-img"><a href="https://draft.blogger.com/u/1/blog/pages/8073162160850164395" title="bein premium 1"><img src="https://assets.bein.com/mena/sites/4/2015/06/beIN_SPORTS1_PREMIUM_Digital_Mono.png"></a></div>
+<div id="wm-details"><div>بين بريميوم 1</div>
+<div style="font-weight:bold;color:#666;"><i class="fas fa-clock" style="font-weight:bold;color:#eee;"></i> live </div>
+<div style="font-weight:bold;color:#2196F3;"><i class="fas fa-calendar-alt" style="font-weight:bold;color:#eee;"></i> 2023</div><br>
+</div></div></div>
+<div class="poster"><div id="w-movie">
+<div id="w-img"><a href="#" title="bein premium 2"><img src="https://img.kooora.com/?i=o%2Fh%2F1%2F893%2Fbein-sports-premium-1.png"></a></div>
+<div id="wm-details"><div>بين بريميوم 2</div>
+<div style="font-weight:bold;color:#666;"><i class="fas fa-clock" style="font-weight:bold;color:#eee;"></i> live </div>
+<div style="font-weight:bold;color:#2196F3;"><i class="fas fa-calendar-alt" style="font-weight:bold;color:#eee;"></i> 2023</div><br>
+</div></div></div>
+<div class="poster"><div id="w-movie">
+<div id="w-img"><a href="#" title="bein premium 3"><img src="https://img.kooora.com/?i=o%2Fh%2F1%2F894%2Fbein-sports-premium-1.png"></a></div>
+<div id="wm-details"><div>بين بريميوم 3</div>
+<div style="font-weight:bold;color:#666;"><i class="fas fa-clock" style="font-weight:bold;color:#eee;"></i> live </div>
+<div style="font-weight:bold;color:#2196F3;"><i class="fas fa-calendar-alt" style="font-weight:bold;color:#eee;"></i> 2023</div><br>
+</div></div></div>
+<div class="poster"><div id="w-movie">
+<div id="w-img"><a href="#" title="bein sport 1"><img src="https://assets.bein.com/mena/sites/4/2015/06/beIN_SPORTS1_DIGITAL_Mono.png"></a></div>
+<div id="wm-details"><div>بين سبورت 1</div>
+<div style="font-weight:bold;color:#666;"><i class="fas fa-clock" style="font-weight:bold;color:#eee;"></i> live </div>
+<div style="font-weight:bold;color:#2196F3;"><i class="fas fa-calendar-alt" style="font-weight:bold;color:#eee;"></i> 2023</div><br>
+</div></div></div>
+
+
+<!--NO TOCAR-->
+</div></div>
+
+
+
+
+
+لتحقيق ذلك، يمكنك تعديل الكود التالي:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.floating-button {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 10px; /* تعديل الشكل ليكون مربع صغير */
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.floating-button:hover {
+  background-color: red; /* تعديل لون الخلفية لتكون حمراء */
+}
+</style>
+</head>
+<body>
+<a href="https://example.com">
+  <button class="floating-button">ابلاغ عن قناة لا تعمل</button>
+</a>
+</body>
+</html>
